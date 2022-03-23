@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   const [count, setCount] = useState(0)
-  let color = count > 0 ? "red" : count < 0 ? "blue" : "black" ;
+  let color = count > 0 ? "green" : count < 0 ? "red" : "black" ;
   const inc = () => setCount(count + 1);
   const des = () => setCount(count - 1);
   const reset = () => setCount(0);
